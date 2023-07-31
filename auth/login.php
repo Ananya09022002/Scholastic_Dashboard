@@ -1,6 +1,6 @@
 <?php 
-  include "authentication.php" ;
-  include "header.php" ;
+  include "../auth/authentication.php" ;
+  include "../include/header.php" ;
   if(isset($_SESSION['auth']))
   {
     $_SESSION['status'] = "You are already logged in";
@@ -38,4 +38,4 @@
           <button type="submit" class="save" name="loginUser">Login</button>
         </div>
 </form>
-<?php include "footer.php" ; ?>
+<?php include "../include/footer.php" ; ?>

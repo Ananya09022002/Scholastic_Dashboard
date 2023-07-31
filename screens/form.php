@@ -1,6 +1,6 @@
 <?php
-include('authentication.php');
-include('dbcon.php');
+include('../auth/authentication.php');
+include('../database/dbcon.php');
 
 if(isset($_POST['logoutUser']))
 {

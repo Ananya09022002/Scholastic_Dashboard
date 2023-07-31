@@ -1,10 +1,10 @@
 <?php 
 session_start();
-include "header.php" ; ?>
-<?php include "sidebar.php" ; ?>
+include "../include/header.php" ; ?>
+<?php include "../include/sidebar.php" ; ?>
 <div class="container">
-<?php include "topbar.php" ; 
-include "dbcon.php" ;?>
+<?php include "../include/topbar.php" ; 
+include "../database/dbcon.php" ;?>
         <div class="content">
             <?php
             if(isset($_SESSION['status']))
@@ -143,4 +143,4 @@ include "dbcon.php" ;?>
             </div>
         </div>
 </div>
-    <?php include "footer.php" ; ?>
+    <?php include "../include/footer.php" ; ?>

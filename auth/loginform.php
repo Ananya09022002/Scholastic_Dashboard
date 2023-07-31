@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  include('dbcon.php');
+  include('../database/dbcon.php');
 
 if(isset($_POST['loginUser']))
 {

@@ -11,7 +11,7 @@ $con = mysqli_connect( $host, $username, $password, $database);
 // Check Connection
 if(!$con)
 {
-    header ("Location: ../db.php");
+    header ("Location: ../database/db.php");
     die();
 }
 ?>

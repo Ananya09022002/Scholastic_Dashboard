@@ -1,11 +1,11 @@
 <?php 
-  include "authentication.php" ;
-  include "header.php" ;
-  include "sidebar.php" ; 
+  include "../auth/authentication.php" ;
+  include "../include/header.php" ;
+  include "../include/sidebar.php" ; 
    ?>
   <div class="container">
-  <?php include "topbar.php" ;
-  include "dbcon.php" 
+  <?php include "../include/topbar.php" ;
+  include "../database/dbcon.php" 
   ?>
   <div class="content">
   <?php
@@ -66,4 +66,4 @@
       </form>
     </div>
 </div>
-<?php include "footer.php" ; ?>
+<?php include "../include/footer.php" ; ?>
